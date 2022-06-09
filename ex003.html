@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Switch</title> <style>
+        div#vott {
+            font: bolder 16pt bold; color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            background: brown;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 20px;
+        } body {
+            background: gray;
+            background-image: cross-fade();
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Saiba se seu voto é obrigatório a partir de sua idade</h1>
+    Qual seu <strong>Nome?:</strong> <input type="text" name="text2" id="text2">
+    <p></p>
+    Digite sua <strong>Idade</strong>: <input type="number" name="text1" id="text1">
+    <input type="button" value="Calcular" id="but1" onclick="calc()">
+    <p></p>
+    <div id="vot"></div>
+    <p></p>
+    <div id="vott"></div>
+
+    <script src="ex001.js"></script>
+
+</body>
+</html>
