@@ -1,0 +1,16 @@
+
+        div#vott {
+            font: bolder 16pt bold; color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            background: brown;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 20px;
+        } body {
+            background: gray;
+            background-image: cross-fade();
+        }
+        
+   
